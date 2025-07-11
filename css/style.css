@@ -7,9 +7,25 @@ font-style: normal;
 font-variation-settings:
     "wdth" 100; */
 
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
 
-body { 
-    background-color: #f1f1f1;
+p, ul, ol {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+p.caption {
+    color: #9d9d9d;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic; 
 }
 
 html, body {
@@ -42,4 +58,31 @@ header h1 {
     font-style: normal;
     font-size: 48px;
     margin: 10px 0px 0px;
+}
+
+h1 {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    margin: 32px 0px;
+}
+
+h2 {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    margin: 32px 0px;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto
+}
+
+main img {
+    max-width: 100%;
 }
