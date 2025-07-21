@@ -74,6 +74,13 @@ header h1 {
     margin: 10px 0px 0px;
 }
 
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+}
+
+
 h1 {
     color: #000000;
     font-family: "Roboto", sans-serif;
@@ -82,6 +89,7 @@ h1 {
     font-size: 48px;
     margin: 32px 0px;
 }
+
 
 h2 {
     color: #000000;
@@ -92,8 +100,15 @@ h2 {
     margin: 32px 0px;
 }
 
+@media (max-width: 600px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
 main {
-    width: 800px;
+    padding: 0 20px;
+    max-width: 800px;
     margin: 0 auto
 }
 
@@ -101,17 +116,19 @@ main img {
     max-width: 100%;
 }
 
+/* footer */
 footer {
     text-align: center;
     color: #ffffff;
     background-color: #000000;
-    padding: 40px;
+    padding: 40px; 
     margin-top: 60px;
 }
 
 footer .content {
-    width: 800;
+    max-width: 800;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 footer a {
@@ -120,4 +137,10 @@ footer a {
 
 footer a:hover {
     color: #00eeff;
+}
+
+@media (max-width: 600px) {
+    footer p {
+        font-size: 16px;
+    }
 }
