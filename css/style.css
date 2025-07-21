@@ -32,14 +32,6 @@ a:hover {
     color: darkblue;
 }
 
-a:active {
-    color: rgb(212, 0, 255);
-}
-
-a:visited {
-    color: purple;
-}
-
 p.caption {
     color: #9d9d9d;
     font-family: "Roboto";
@@ -110,9 +102,11 @@ main img {
 }
 
 footer {
+    text-align: center;
     color: #ffffff;
     background-color: #000000;
     padding: 40px;
+    margin-top: 60px;
 }
 
 footer .content {
@@ -125,13 +119,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #d9d9d9;
-}
-
-footer a:active {
-    color: white;
-}
-
-footer a:visited {
-    color: white;
+    color: #00eeff;
 }
